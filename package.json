@@ -1,0 +1,24 @@
+{
+  "name": "@lux-ti/eslint-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "exports": {
+    "./vue": "./lib/vue.js",
+    "./typescript": "./lib/typescript.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": "^8.46.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.3.0",
+    "@typescript-eslint/parser": "^6.3.0",
+    "eslint-plugin-vue": "^9.17.0"
+  }
+}
