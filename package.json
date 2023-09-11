@@ -1,6 +1,6 @@
 {
   "name": "@salomaosnff/eslint-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "lib/index.js",
   "exports": {
@@ -22,8 +22,8 @@
     "eslint": "^8.46.0"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.3.0",
-    "@typescript-eslint/parser": "^6.3.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
     "eslint-plugin-vue": "^9.17.0"
   }
 }
