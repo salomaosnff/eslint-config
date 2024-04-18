@@ -1,12 +1,21 @@
 {
   "name": "@salomaosnff/eslint-config",
-  "version": "1.0.4",
+  "version": "2.0.0-pre",
   "description": "",
+  "type": "module",
   "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
   "exports": {
     ".": "./lib/index.js",
-    "./vue": "./lib/vue.js",
-    "./typescript": "./lib/typescript.js"
+    "./vue": "./lib/vue/index.js",
+    "./vue/recommended": "./lib/vue/recommended.js",
+    "./vue/recommended-ts": "./lib/vue/recommended-ts.js",
+    "./typescript": "./lib/typescript/index.js",
+    "./typescript/recommended": "./lib/typescript/recommended.js",
+    "./javascript": "./lib/javascript/index.js",
+    "./javascript/recommended": "./lib/javascript/recommended.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,11 +28,17 @@
     "registry": "https://registry.npmjs.org"
   },
   "peerDependencies": {
-    "eslint": "^8.46.0"
+    "@eslint/js": "^9.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-vue": "^9.25.0",
+    "typescript-eslint": "^7.7.0"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.7.0",
-    "@typescript-eslint/parser": "^6.7.0",
-    "eslint-plugin-vue": "^9.17.0"
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-vue": "^9.25.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5"
   }
 }
