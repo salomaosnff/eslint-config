@@ -28,9 +28,6 @@ devDependencies:
   typescript:
     specifier: ^5.4.5
     version: 5.4.5
-  vue-eslint-parser:
-    specifier: ^9.4.2
-    version: 9.4.2(eslint@9.0.0)
 
 packages:
 

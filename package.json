@@ -1,6 +1,7 @@
 {
   "name": "@salomaosnff/eslint-config",
-  "version": "2.0.0-pre",
+  "version": "2.0.1",
+  "packageManager": "pnpm@9.0.3",
   "description": "",
   "type": "module",
   "main": "lib/index.js",
